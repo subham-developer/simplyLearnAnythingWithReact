@@ -30,10 +30,10 @@ import Rightcolumncontent from './Rightcolumncontent';
      }
         render(){
             return(
-                
-                <div className="row">
-                    <Leftcolumncontent contents={this.props.isMyName}/>
-                    <Rightcolumncontent />
+                <div className="container-fluid">
+                    <div className="row">
+                        <Leftcolumncontent contents={this.props.isMyName}/>
+                    </div>
                 </div>
 
             );
